@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-louisiana-code",
+  "version": "0.1.0",
+  "description": "Louisiana Laws — Revised Statutes, Civil Code, Code of Civil Procedure,",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-louisiana-code": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "louisiana-code"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-louisiana-code.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-d40d442c77ce5e9f5b881916a1aefc02e9fc9f3224de70f07929bf45410bded8",
+    "sourceCommit": "eb436cf60f06c9b79701a15cd1670609580544a5"
+  }
+}
