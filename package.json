@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-louisiana-code",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Louisiana Laws — Revised Statutes, Civil Code, Code of Civil Procedure, Code of Criminal Procedure, Code of Evidence, Children's Code and the Louisiana Constitution — section by citation with its enactment and amendment history parsed out, full-text topic search across all of those code bodies, and…",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "louisiana-code",
     "gatewaySlug": "louisiana-code",
-    "sourceHash": "v1-80e69e15a14eb686b49d8361a32f51ae1acfecba12b3a28532f0240fc298118f",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-5d2f791b889b1ba4ec0222dfe372121f8abb559818957b902d5b1d477ee04f79",
+    "sourceCommit": "236b0a46d91f343fe094da9f499c378e88f78312"
   }
 }
